@@ -624,6 +624,11 @@ a:hover {
     left: -100%;
   }
 }
+@media (min-width: 820px) {
+  body {
+    margin: 0rem -8rem;
+  }
+}
 
 /**
 * Mobile Navigation 
