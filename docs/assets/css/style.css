@@ -834,8 +834,8 @@ a:hover {
 }
 .timelineCardsFrom h1 {
   text-align: center;
-  font-size: 3rem;
-    font-weight: bold;
+/*   font-size: 3rem;
+    font-weight: bold; */
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
@@ -2024,4 +2024,24 @@ footer .credits a {
     font-size: 4rem; /* Larger size */
   }
 }
+@media only screen and (max-width: 768px) {
+  /* styles for medium devices */
+  .title-a {
+      font-size: 2rem;
+  }
+  h1,h3{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* styles for small devices */
+  .title-a {
+      font-size: 1.5rem;
+  }
+  h1,h3{
+    font-size: 2rem;
+  }
+}
+
 
